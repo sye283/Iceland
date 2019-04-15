@@ -1,0 +1,104 @@
+body, html {
+  font-family: 'Raleway', sans-serif !important;
+  height: 100%;
+  margin: 0em 1.5em 0em 1.5em;
+}
+.navbar{
+}
+.about{
+  font-size: 20px;
+}
+
+.locations{
+  font-size: 20px;
+}
+.toplogo-1 {
+  font-size: 50px;
+  padding-top: 10px;
+}
+.toplogo-2{
+  font-size: 23px;
+  float: right;
+}
+
+.underline--magical {
+  background-image: linear-gradient(120deg, #f3d9fc 0%, #f3d9fc 100%);
+  background-repeat: no-repeat;
+  /* background-size: 100% 0.5em; */
+  background-size: 100% 0em;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in;
+}
+
+.underline--magical:hover{
+  background-size: 100% 88%;
+}
+.placeunderline {
+  background-image: linear-gradient(120deg, #d8f6ff 0%, #d8f6ff 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0em;
+  background-position: 0 100%;
+  transition: background-size 0.1s ease-in;
+}
+.placeunderline:hover{
+  background-size: 100% 40%;
+}
+.navlinks{
+  text-decoration: none;
+  color: black;
+}
+.navlinks:hover{
+  text-decoration: none;
+  color: black;
+}
+.timeline-years{
+  margin-top: 3%;
+  text-align: right;
+  height: 70%;
+  border-right: .3mm solid #c1bfbf;
+}
+.years{
+  color: #757575;
+  text-decoration: none;
+}
+.years:hover{
+  text-decoration: none;
+  color: #757575;
+}
+.timeline-places{
+  margin-top: 3%;
+  text-align: left;
+  height: 70%;
+}
+.places{
+  padding-bottom: 15px;
+}
+.divplaces{
+  color: #757575;
+}
+.imageslider{
+  display: flex;
+  align-self: center;
+  height: 30%;
+  background: url(scrolling.png) repeat-x 0 center;
+  background-size: cover;
+  margin: 0 auto;
+}
+.imagestart{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 20%;
+  background: url(follow.png) no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+.imageend{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 30%;
+  background: url(mylead.png) no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}

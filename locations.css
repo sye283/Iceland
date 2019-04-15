@@ -1,0 +1,54 @@
+body, html {
+  font-family: 'Raleway', sans-serif !important;
+  height: 100%;
+  margin: 0em 1.5em 0em 1.5em;
+}
+.navbar{
+}
+.about{
+  font-size: 20px;
+}
+
+.locations{
+  font-size: 20px;
+  font-weight: bold;
+}
+.toplogo-1 {
+  font-size: 50px;
+  padding-top: 10px;
+}
+.toplogo-2{
+  font-size: 23px;
+  float: right;
+}
+.underline--magical {
+  background-image: linear-gradient(120deg, #f3d9fc 0%, #f3d9fc 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0em;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in;
+}
+
+.underline--magical1 {
+  background-image: linear-gradient(120deg, #f3d9fc 0%, #f3d9fc 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.5em;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in;
+}
+
+.underline--magical1:hover{
+  background-size: 100% 88%;
+}
+
+.underline--magical:hover{
+  background-size: 100% 88%;
+}
+.navlinks{
+  text-decoration: none;
+  color: black;
+}
+.navlinks:hover{
+  text-decoration: none;
+  color: black;
+}
