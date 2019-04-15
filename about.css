@@ -53,7 +53,7 @@ body, html {
 .timeline-years{
   margin-top: 3%;
   text-align: right;
-  height: 70%;
+  height: 460px;
   border-right: .3mm solid #c1bfbf;
 }
 .years{
@@ -74,4 +74,76 @@ body, html {
 }
 .divplaces{
   color: #757575;
+}
+.about-square{
+  border: .3mm solid #c1bfbf;
+  margin-top: 50px;
+  height: 450px;
+}
+.aboutpic{
+  width: 65%;
+}
+.firstcol{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hellotext {
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #9e9c9c;
+}
+#art{
+  height: 30%;
+  width: 100%;
+  background-color: #F47476;
+}
+#school{
+  height: 30%;
+  width: 100%;
+  background-color: #DEC39E;
+}
+#bucketlist{
+  height: 40%;
+  width: 100%;
+  background-color: #F3F7DC;
+}
+#moving{
+  height: 28%;
+  width: 100%;
+  background-color: #D8D6CB;
+}
+#random{
+  height: 62%;
+  width: 100%;
+  background-color: #FCE4DD;
+}
+#socialmedia{
+  height: 10%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+.nogutter{
+  padding-right:0 !important;
+   padding-left:0 !important;
+   margin-left: 0 !important;
+   margin-right: 0 !important;
+}
+.aboutlogos{
+  width: 20%;
+}
+.abtsquares{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.abouttext{
+  padding: 20px;
+}
+.socialicons{
+  height: 65%;
+  margin: 0px 15px 0px 15px
 }

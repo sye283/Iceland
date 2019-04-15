@@ -54,7 +54,7 @@ body, html {
 .timeline-years{
   margin-top: 3%;
   text-align: right;
-  height: 70%;
+  height: 460px;
   border-right: .3mm solid #c1bfbf;
 }
 .years{
