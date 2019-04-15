@@ -102,3 +102,28 @@ body, html {
   background-size: cover;
   margin: 0 auto;
 }
+.placeslist{
+  border-radius: 60px;
+  border: 2px solid #757575;
+  padding: 20px;
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #757575;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+}
+.countries{
+  font-size: 20px;
+}
+.locationswrap{
+  margin-top: 50px;
+}
+
+.placeslist:hover{
+  box-shadow: inset 200px 0 0 0 #f3d9fc;
+}
