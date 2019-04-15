@@ -1,3 +1,7 @@
+$(".places16").hide();
+$(".places17").hide();
+$(".places18").hide();
+$(".places19").hide();
 $(document).ready(function() {
 
   // $('.imageslider').animate({backgroundPosition : '-=2px'}, 20, 'linear', slide);
