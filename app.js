@@ -1,8 +1,15 @@
-$(".places16").hide();
-$(".places17").hide();
-$(".places18").hide();
-$(".places19").hide();
 $(document).ready(function() {
+
+  $("body").css("display", "none");
+    $("body").fadeIn(400);
+    // to fade out before redirect
+    $('a').click(function(e){
+        redirect = $(this).attr('href');
+        e.preventDefault();
+        $('body').fadeOut(400, function(){
+            document.location.href = redirect
+        });
+    });
 
   // $('.imageslider').animate({backgroundPosition : '-=2px'}, 20, 'linear', slide);
 
