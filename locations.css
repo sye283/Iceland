@@ -62,3 +62,11 @@ body, html {
   text-decoration: none;
   color: black;
 }
+.placelinks{
+  text-decoration: none;
+  color: #757575;
+}
+.placelinks:hover{
+  text-decoration: none;
+  color: #757575;
+}
