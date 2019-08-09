@@ -95,19 +95,29 @@ body, html {
   height: 100%;
 }
 .aboutpic{
-  width: 65%;
+  width: 70%;
+  position: absolute;
+  bottom:0;
+  display: flex;
+  align-items: flex-end;
 }
 .firstcol{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  overflow:hidden;
 }
 .hellotext {
-  font-size: 45px;
+  font-size: 40px;
   text-align: center;
   font-family: 'Gloria Hallelujah', cursive;
   color: #9e9c9c;
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  top: 15px;
 }
 #art{
   height: 30%;
