@@ -20,6 +20,16 @@ body, html {
   font-size: 23px;
   float: right;
 }
+.underline--magical2 {
+  background-image: linear-gradient(120deg, #d8f6ff 0%, #d8f6ff 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0em;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in;
+}
+.underline--magical2:hover{
+  background-size: 100% 80%;
+}
 
 .underline--magical {
   background-image: linear-gradient(120deg, #f3d9fc 0%, #f3d9fc 100%);
@@ -79,6 +89,10 @@ body, html {
   border: .3mm solid #c1bfbf;
   margin-top: 50px;
   height: 450px;
+}
+
+.about-row{
+  height: 100%;
 }
 .aboutpic{
   width: 65%;

@@ -36,6 +36,16 @@ body, html {
   background-position: 0 100%;
   transition: background-size 0.25s ease-in;
 }
+.underline--magical2 {
+  background-image: linear-gradient(120deg, #d8f6ff 0%, #d8f6ff 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0em;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in;
+}
+.underline--magical2:hover{
+  background-size: 100% 80%;
+}
 
 .underline--magical1:hover{
   background-size: 100% 88%;

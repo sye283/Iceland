@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+  (function slide(){
+    $('.imageslider').animate({backgroundPosition : '-=2px'}, 20, 'linear', slide);
+  })();
+
   $("body").css("display", "none");
     $("body").fadeIn(400);
     // to fade out before redirect
@@ -60,9 +64,7 @@ $(document).ready(function() {
           }
        });
 
-    (function slide(){
-      $('.imageslider').animate({backgroundPosition : '-=2px'}, 20, 'linear', slide);
-    })();
+
 
 
 

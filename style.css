@@ -29,6 +29,16 @@ body, html {
   background-position: 0 100%;
   transition: background-size 0.25s ease-in;
 }
+.underline--magical2 {
+  background-image: linear-gradient(120deg, #d8f6ff 0%, #d8f6ff 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0em;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in;
+}
+.underline--magical2:hover{
+  background-size: 100% 80%;
+}
 
 .underline--magical:hover{
   background-size: 100% 88%;
@@ -79,29 +89,30 @@ body, html {
 .imageslider{
   display: flex;
   align-self: center;
-  height: 30%;
+  height: 40%;
   background: url(scrolling.png) repeat-x 0 center;
   background-size: cover;
   margin: 0 auto;
 }
-.imagestart{
-  display: flex;
-  justify-content: flex-start;
-  width: 100%;
-  height: 20%;
-  background: url(follow.png) no-repeat;
-  background-size: cover;
-  margin: 0 auto;
+
+.quote{
+  margin-top: 3.5%;
+  font-size: 65px;
+  font-style: italic;
+  color: #DEDEDE;
+  font-family: 'Lustria', serif;
+  font-weight: bold;
 }
-.imageend{
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  height: 30%;
-  background: url(mylead.png) no-repeat;
-  background-size: cover;
-  margin: 0 auto;
+.author{
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 50%;
+  font-size: 30px;
+  color: #DEDEDE;
+  font-family: 'Lustria', serif;
+  font-weight: bold;
 }
+
 .placeslist{
   border-radius: 60px;
   border: 2px solid #757575;
@@ -126,4 +137,12 @@ body, html {
 
 .placeslist:hover{
   box-shadow: inset 200px 0 0 0 #f3d9fc;
+}
+.rowadjust{
+  width: 100%;
+  height: 100%;
+}
+.containeradjust{
+  height: 80%;
+  width: 100%;
 }
